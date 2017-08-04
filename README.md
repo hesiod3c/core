@@ -1,1 +1,1 @@
-# core
+# Descco UI - Core

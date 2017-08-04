@@ -1,0 +1,38 @@
+{
+  "name": "@descco/ui-core",
+  "version": "v0.1.0",
+  "description": "Descco UI",
+  "scripts": {
+    "lint": "yarn lint:sass && yarn lint:js",
+    "lint:js": "eslint source/**",
+    "lint:sass": "./node_modules/.bin/sass-lint 'source/**/*.scss' --verbose --no-exit",
+    "precommit": "yarn lint",
+    "prepush": "yarn test",
+    "test": "./node_modules/.bin/jest --setupTestFrameworkScriptFile=internals/test/setup.js"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "descco",
+    "ui-core"
+  ],
+  "author": "Hemerson Vianna <hemerson.lourenco@b2wdigital.com> (https://github.com/hemersonvianna)",
+  "dependencies": {
+    "node-sass": "4.5.3"
+  },
+  "devDependencies": {
+    "husky": "0.13.3-0",
+    "jest-cli": "17.0.2"
+  },
+  "engines": {
+    "node": ">=6.10.3",
+    "npm": ">=3.10.10"
+  },
+  "jest": {
+    "verbose": false,
+    "testRegex": "(/source/.*.(test|spec)).(js)$",
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ]
+  }
+}
