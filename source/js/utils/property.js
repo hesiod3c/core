@@ -2,11 +2,11 @@
  * randomId
  */
 export const randomId = (len, pattern) => {
-  const possibilities = ["abcdefghijklmnopqrstuvwxyz","ABCDEFGHIJKLMNOPQRSTUVWXYZ", "0123456789"];
-  let chars = "";
+  const possibilities = ['abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ', '0123456789'];
+  let chars = '';
   let result = '';
 
-  pattern = pattern ? pattern : "aA0";
+  pattern = pattern ? pattern : 'aA0';
   len = len ? len : 10;
 
   pattern.split('').forEach(function(a){

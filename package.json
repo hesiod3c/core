@@ -4,7 +4,7 @@
   "description": "Descco UI",
   "scripts": {
     "lint": "yarn lint:sass && yarn lint:js",
-    "lint:js": "eslint source/**",
+    "lint:js": "./node_modules/.bin/eslint source/**",
     "lint:sass": "./node_modules/.bin/sass-lint 'source/**/*.scss' --verbose --no-exit",
     "precommit": "yarn lint",
     "prepush": "yarn test",
@@ -16,12 +16,15 @@
     "ui-core"
   ],
   "author": "Hemerson Vianna <hemerson.lourenco@b2wdigital.com> (https://github.com/hemersonvianna)",
-  "dependencies": {
-    "node-sass": "4.5.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "husky": "0.13.3-0",
-    "jest-cli": "17.0.2"
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "eslint": "4.3.0",
+    "husky": "0.14.3",
+    "jest": "20.0.4",
+    "node-sass": "4.5.3",
+    "sass-lint": "1.10.2"
   },
   "engines": {
     "node": ">=6.10.3",
