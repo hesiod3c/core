@@ -1,17 +1,17 @@
 {
   "name": "@descco/ui-core",
-  "version": "v0.1.0",
+  "version": "0.1.0",
   "description": "Descco UI",
   "scripts": {
     "build": "yarn build:js && yarn build:images",
-    "build:js": "./node_modules/.bin/babel source --out-dir lib --ignore bin,images",
-    "build:images": "./node_modules/.bin/babel source/images --out-dir lib/images --copy-files",
+    "build:js": "babel source --out-dir lib --ignore bin,images",
+    "build:images": "babel source/images --out-dir lib/images --copy-files",
     "lint": "yarn lint:sass && yarn lint:js",
-    "lint:js": "./node_modules/.bin/eslint source/**",
-    "lint:sass": "./node_modules/.bin/sass-lint 'source/**/*.scss' --verbose --no-exit",
+    "lint:js": "eslint source/**",
+    "lint:sass": "sass-lint 'source/**/*.scss' --verbose --no-exit",
     "precommit": "yarn lint",
     "prepush": "yarn test",
-    "test": "./node_modules/.bin/jest --setupTestFrameworkScriptFile=./internals/test/setup.js --testRegex=/source/.*.test.js?$",
+    "test": "jest --setupTestFrameworkScriptFile=./internals/test/setup.js --testRegex=/source/.*.test.js?$",
     "test:tdd": "yarn test -- --watch",
     "test:coverage": "yarn test -- --coverage --coverageDirectory=coverage"
   },
@@ -41,5 +41,17 @@
   "engines": {
     "node": ">=6.10.3",
     "npm": ">=3.10.10"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descco-ui/core.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/descco-ui/core/issues"
+  },
+  "homepage": "https://github.com/descco-ui/core#readme"
 }
