@@ -3,9 +3,9 @@
   "version": "v0.1.0",
   "description": "Descco UI",
   "scripts": {
-    "build": "",
+    "build": "yarn build:js && yarn build:images",
     "build:js": "./node_modules/.bin/babel source --out-dir lib --ignore bin,images",
-    "build:sass": "./node_modules/.bin/node-sass",
+    "build:images": "./node_modules/.bin/babel source/images --out-dir lib/images --copy-files",
     "lint": "yarn lint:sass && yarn lint:js",
     "lint:js": "./node_modules/.bin/eslint source/**",
     "lint:sass": "./node_modules/.bin/sass-lint 'source/**/*.scss' --verbose --no-exit",
