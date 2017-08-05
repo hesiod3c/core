@@ -8,7 +8,9 @@
     "lint:sass": "./node_modules/.bin/sass-lint 'source/**/*.scss' --verbose --no-exit",
     "precommit": "yarn lint",
     "prepush": "yarn test",
-    "test": "./node_modules/.bin/jest --setupTestFrameworkScriptFile=internals/test/setup.js"
+    "test": "./node_modules/.bin/jest --setupTestFrameworkScriptFile=./internals/test/setup.js --testRegex=/source/.*.test.js?$",
+    "test:tdd": "yarn test -- --watch",
+    "test:coverage": "yarn test -- --coverage --coverageDirectory=coverage"
   },
   "main": "lib/index.js",
   "keywords": [
@@ -33,12 +35,5 @@
   "engines": {
     "node": ">=6.10.3",
     "npm": ">=3.10.10"
-  },
-  "jest": {
-    "verbose": false,
-    "testRegex": "(/source/.*.(test|spec)).(js)$",
-    "moduleFileExtensions": [
-      "js"
-    ]
   }
 }
