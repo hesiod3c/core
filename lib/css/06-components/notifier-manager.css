@@ -1,0 +1,46 @@
+.notifier-manager__container___gAemz {
+  padding: 6px 12px;
+  position: fixed;
+  z-index: 10301; }
+
+.notifier-manager__top-right___ZtJDi {
+  right: 0;
+  text-align: right;
+  top: 0; }
+
+.notifier-manager__top-left___3m7GD {
+  left: 0;
+  top: 0; }
+
+.notifier-manager__bottom-right___1zL2Z {
+  bottom: 0;
+  right: 0;
+  text-align: right; }
+
+.notifier-manager__bottom-left___fJt1C {
+  bottom: 0;
+  left: 0; }
+
+.notifier-manager__enter___3n9xK {
+  max-height: 0;
+  opacity: 0.01;
+  overflow: hidden;
+  transform: translateX(-25%);
+  transition: 0.25s ease-in; }
+
+.notifier-manager__enterActive___3lAJy {
+  max-height: 20em;
+  opacity: 1;
+  transform: translateX(0); }
+
+.notifier-manager__leave___14IYP {
+  max-height: 20em;
+  opacity: 1;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: 0.25s ease-out; }
+
+.notifier-manager__leaveActive___i0oyf {
+  max-height: 0;
+  opacity: 0.01;
+  transform: translateX(25%); }

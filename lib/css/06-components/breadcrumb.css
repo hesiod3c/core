@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* ==========================================================================
+   breadcrumb
+   ========================================================================== */
+.breadcrumb__breadcrumb-list___33l7e {
+  margin-bottom: 0;
+  padding: 0; }
+
+.breadcrumb__breadcrumb-item___2XrxO {
+  display: inline-block; }
+  .breadcrumb__breadcrumb-item___2XrxO:before {
+    color: #ccc;
+    content: "/\A0";
+    padding: 0 5px; }
+  .breadcrumb__breadcrumb-item___2XrxO:first-child:before {
+    content: "";
+    padding: 0; }
+
+.breadcrumb__breadcrumb-link___38iXe {
+  color: #676a6c;
+  cursor: pointer;
+  text-decoration: none; }
+
+.breadcrumb__breadcrumb-text___2ivOV {
+  color: #333; }

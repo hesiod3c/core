@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Color
+========================================================================== */
+/* ==========================================================================
+   Transfer Component
+   ========================================================================== */
+.transfer__transfer___3I6CT:before, .transfer__transfer___3I6CT:after {
+  content: " ";
+  display: table; }
+
+.transfer__transfer___3I6CT:after {
+  clear: both; }
+
+.transfer__transfer-box___3pYzk {
+  float: left;
+  width: 40%; }
+
+.transfer__transfer-title___3mfic {
+  background: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center; }
+
+.transfer__transfer-list___3lJ69 {
+  height: 140px;
+  overflow: auto; }
+
+.transfer__transfer-item___3XvsX {
+  cursor: pointer; }
+
+.transfer__transfer-operator___Mh3IN {
+  float: left;
+  padding: 0 10px;
+  padding-top: 60px;
+  text-align: center;
+  width: 20%; }
+
+.transfer__transfer-operator-button___7PdjV {
+  cursor: pointer;
+  margin-bottom: 10px;
+  max-width: 60px; }
+
+.transfer__on___CTke0 {
+  background: #e5efe5; }

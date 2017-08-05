@@ -1,0 +1,41 @@
+/* ==========================================================================
+  Variables
+  ========================================================================== */
+/* Colors
+   ========================================================================== */
+/* ==========================================================================
+ Image
+ ========================================================================== */
+figure {
+  text-align: left; }
+  figure.image__center___m1flg {
+    text-align: center; }
+  figure.image__right___e_xKJ {
+    text-align: right; }
+
+img {
+  vertical-align: middle; }
+
+.image__small___2JYDt {
+  height: 32px;
+  width: 32px; }
+
+.image__medium___oTU_q {
+  height: 64px;
+  width: 64px; }
+
+.image__large___3j0yG {
+  height: 96px;
+  width: 96px; }
+
+.image__circle___3V8oJ {
+  border-radius: 50%; }
+
+.image__rounded___2b4U6 {
+  border-radius: 6px; }
+
+.image__thumbnail___2YqBV {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  line-height: 1.42857143;
+  padding: 4px; }

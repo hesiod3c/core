@@ -1,0 +1,47 @@
+.form__form___2So5X {
+  outline: none; }
+
+.form__horizontal___1tjAK [class*="form-group"] {
+  max-width: 100%; }
+  .form__horizontal___1tjAK [class*="form-group"]:before, .form__horizontal___1tjAK [class*="form-group"]:after {
+    content: " ";
+    display: table; }
+  .form__horizontal___1tjAK [class*="form-group"]:after {
+    clear: both; }
+
+.form__horizontal___1tjAK [class*="label"] {
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 25%;
+  margin-left: 0%;
+  margin-bottom: 0;
+  padding-top: 7px;
+  text-align: right; }
+
+.form__horizontal___1tjAK [class*="form-addon"] {
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 75%;
+  margin-left: 0%; }
+
+.form__horizontal___1tjAK [class*="form-group-actions"] {
+  display: inline;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 75%;
+  margin-left: 25%; }
+
+.form__inline___3v0nf [class*="form-group"] {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle; }
+
+.form__inline___3v0nf [class*="form-field"] {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto; }

@@ -1,3 +1,16 @@
 {
-  "presets": ["es2015"]
+  "plugins": [
+    [
+      "css-modules-transform", {
+        "preprocessCss": "./internals/css-modules-transform.js",
+        "extensions": [".css", ".scss"],
+        "extractCss": {
+          "dir": "./lib/css",
+          "relativeRoot": "./source/scss",
+          "filename": "[path]/[name].css"
+        }
+      }
+    ]
+  ],
+  "presets": ["es2015", "stage-0"]
 }

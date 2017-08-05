@@ -1,0 +1,269 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Color
+========================================================================== */
+/* ==========================================================================
+   Modal Component
+   ========================================================================== */
+@keyframes modal__show___2KVe2 {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.modal__overlay___3VLxB {
+  animation-duration: 0.3s;
+  animation-name: modal__show___2KVe2;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  perspective: 1300;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: opacity 0.3s linear;
+  z-index: 9999; }
+
+.modal__content___1PiYS {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 15% auto;
+  min-width: 280px;
+  outline: none;
+  overflow: auto;
+  position: relative;
+  transition: all 0.3s linear;
+  width: 60%; }
+
+.modal__header___FUGSy {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px;
+  position: relative;
+  text-align: left; }
+  .modal__header___FUGSy:before, .modal__header___FUGSy:after {
+    content: " ";
+    display: table; }
+  .modal__header___FUGSy:after {
+    clear: both; }
+  .modal__header___FUGSy [class*="button"] {
+    background: none;
+    border: 0;
+    outline: none;
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+
+.modal__header-title___2nGxG {
+  color: #676a6c;
+  margin-right: 40px; }
+
+.modal__body___35-kL {
+  padding: 20px 30px 30px;
+  text-align: left; }
+
+.modal__footer___3w1wO {
+  border-top: 1px solid #e5e5e5;
+  padding: 15px;
+  text-align: right;
+  width: 100%; }
+  .modal__footer___3w1wO [class*="button"] {
+    margin-left: 10px; }
+
+/* ==========================================================================
+   Effects
+   ========================================================================== */
+/* scaleUp
+========================================================================== */
+@keyframes modal__scaleUp___17mvn {
+  from {
+    opacity: 0;
+    transform: scale(0.7); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
+
+.modal__scaleUp___17mvn {
+  animation-duration: 0.3s;
+  animation-name: modal__scaleUp___17mvn; }
+
+/* slideFromRight
+========================================================================== */
+@keyframes modal__slideFromRight___ca4uy {
+  from {
+    opacity: 0;
+    transform: translateX(35%); }
+  to {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.modal__slideFromRight___ca4uy {
+  animation-duration: 0.3s;
+  animation-name: modal__slideFromRight___ca4uy;
+  transition: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9); }
+
+/* slideFromBottom
+========================================================================== */
+@keyframes modal__slideFromBottom___bw-an {
+  from {
+    opacity: 0;
+    transform: translateY(35%); }
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.modal__slideFromBottom___bw-an {
+  animation-duration: 0.3s;
+  animation-name: modal__slideFromBottom___bw-an; }
+
+/* newspaper
+========================================================================== */
+@keyframes modal__newspaper___1YQI6 {
+  from {
+    opacity: 0;
+    transform: scale(0) rotate(720deg); }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg); } }
+
+.modal__newspaper___1YQI6 {
+  animation-duration: 0.3s;
+  animation-name: modal__newspaper___1YQI6;
+  transition: all 0.5s linear; }
+
+/* fall
+========================================================================== */
+@keyframes modal__slideFromBottom___bw-an {
+  from {
+    opacity: 0;
+    transform: translateZ(600px) rotateX(20deg);
+    transform-style: preserve-ThreeD; }
+  to {
+    opacity: 1;
+    transform: translateZ(0) rotateX(0deg);
+    transform-style: preserve-ThreeD; } }
+
+.modal__fall___5qc1f {
+  animation-duration: 0.3s;
+  animation-name: modal__slideFromBottom___bw-an;
+  transition: all 0.3s ease-in; }
+
+/* sideFall
+========================================================================== */
+@keyframes modal__sideFall___2OY8P {
+  from {
+    opacity: 0;
+    transform: translate(30%) translateZ(600px) rotate(10deg);
+    transform-style: preserve-ThreeD; }
+  to {
+    opacity: 1;
+    transform: translate(0%) translateZ(0) rotate(0deg);
+    transform-style: preserve-ThreeD; } }
+
+.modal__sideFall___2OY8P {
+  animation-duration: 0.3s;
+  animation-name: modal__sideFall___2OY8P; }
+
+/* flipHorizontalThreeD
+========================================================================== */
+@keyframes modal__flipHorizontalThreeD___Sg58Z {
+  from {
+    opacity: 0;
+    transform: rotateY(-70deg);
+    transform-style: preserve-ThreeD; }
+  to {
+    opacity: 1;
+    transform: rotateY(0deg);
+    transform-style: preserve-ThreeD; } }
+
+.modal__flipHorizontalThreeD___Sg58Z {
+  animation-duration: 0.3s;
+  animation-name: modal__flipHorizontalThreeD___Sg58Z; }
+
+/* flipVerticalThreeD
+========================================================================== */
+@keyframes modal__flipVerticalThreeD___xGGCt {
+  from {
+    opacity: 0;
+    transform: rotateX(-70deg);
+    transform-style: preserve-ThreeD; }
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-style: preserve-ThreeD; } }
+
+.modal__flipVerticalThreeD___xGGCt {
+  animation-duration: 0.3s;
+  animation-name: modal__flipVerticalThreeD___xGGCt; }
+
+/* signThreeD
+========================================================================== */
+@keyframes modal__signThreeD___1OkXe {
+  from {
+    opacity: 0;
+    transform: rotateX(-60deg);
+    transform-origin: 50% 0;
+    transform-style: preserve-ThreeD; }
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: 50% 0;
+    transform-style: preserve-ThreeD; } }
+
+.modal__signThreeD___1OkXe {
+  animation-duration: 0.3s;
+  animation-name: modal__signThreeD___1OkXe; }
+
+/* superScaled
+========================================================================== */
+@keyframes modal__superScaled___3HmSQ {
+  from {
+    opacity: 0;
+    transform: scale(2); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
+
+.modal__superScaled___3HmSQ {
+  animation-duration: 0.3s;
+  animation-name: modal__superScaled___3HmSQ; }
+
+/* rotateFromBottomThreeD
+========================================================================== */
+@keyframes modal__rotateFromBottomThreeD___35OvK {
+  from {
+    opacity: 0;
+    transform: translateY(100%) rotateX(90deg);
+    transform-origin: 0 100%;
+    transform-style: preserve-ThreeD; }
+  to {
+    opacity: 1;
+    transform: translateY(0%) rotateX(0deg);
+    transform-origin: 0 100%;
+    transform-style: preserve-ThreeD; } }
+
+.modal__rotateFromBottomThreeD___35OvK {
+  animation-duration: 0.3s;
+  animation-name: modal__rotateFromBottomThreeD___35OvK;
+  transition: all 0.3s ease-out; }
+
+/* rotateFromLeftThreeD
+========================================================================== */
+@keyframes modal__rotateFromLeftThreeD___3GtKa {
+  from {
+    opacity: 0;
+    transform: translateZ(100px) translateX(-30%) rotateY(90deg);
+    transform-origin: 0 100%;
+    transform-style: preserve-ThreeD; }
+  to {
+    opacity: 1;
+    transform: translateZ(0) translateX(0%) rotateY(0deg);
+    transform-origin: 0 100%;
+    transform-style: preserve-ThreeD; } }
+
+.modal__rotateFromLeftThreeD___3GtKa {
+  animation-duration: 0.3s;
+  animation-name: modal__rotateFromLeftThreeD___3GtKa; }

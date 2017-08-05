@@ -1,0 +1,57 @@
+/* ==========================================================================
+   ChoiceBox Component
+   ========================================================================== */
+.choice-box__choiceBox___1LYbR,
+.choice-box__choiceBox-title___2X7zw {
+  outline: none; }
+
+.choice-box__choiceBox-description___2mSRI {
+  font-size: 12px;
+  line-height: 1.2;
+  margin-bottom: 5px; }
+
+.choice-box__choiceBox-formControl___22Wba {
+  margin-bottom: 10px; }
+
+.choice-box__choiceBox-formGroup___3Sx1z {
+  margin: 0; }
+
+.choice-box__choiceBox-formGroup-button___lAi-W {
+  float: right; }
+
+.choice-box__choiceBox-list___2oyEX {
+  max-height: 250px;
+  overflow: auto; }
+  .choice-box__choiceBox-list___2oyEX [class*="label"],
+  .choice-box__choiceBox-list___2oyEX [class*="form-control"] {
+    margin-top: 5px; }
+
+.choice-box__choiceBox-itemWithButton___16zaW {
+  position: relative; }
+  .choice-box__choiceBox-itemWithButton___16zaW .choice-box__choiceBox-formControl___22Wba {
+    padding-right: 52px; }
+
+.choice-box__choiceBox-itemWithButton-button___3L9py {
+  border-radius: 0;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 52px; }
+
+.choice-box__choiceBox-tag___3XLIe {
+  margin-bottom: 5px;
+  margin-right: 10px; }
+
+.choice-box__actived___2VXcg {
+  background: #e0f3ef; }
+  .choice-box__actived___2VXcg [class*="button"] {
+    background: #e0f3ef;
+    border-color: #e0f3ef; }
+  .choice-box__actived___2VXcg path {
+    background: #15947a; }
+
+.choice-box__errorMessage___1KHrw {
+  color: #ed5565;
+  font-size: 12px;
+  font-weight: normal; }

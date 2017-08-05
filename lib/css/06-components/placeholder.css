@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Color
+========================================================================== */
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+@keyframes placeholder__placeHolderShimmer___1jpfu {
+  from {
+    background-position: -468px 0; }
+  to {
+    background-position: 468px 0; } }
+
+/* ==========================================================================
+   Placeholders
+   ========================================================================== */
+.placeholder__text___R9aQN, .placeholder__rect___wb_az, .placeholder__round___xPa8L {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholder__placeHolderShimmer___1jpfu;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eee 8%, #f6f7f8 18%, #eee 33%);
+  background-size: 916px 1px; }
+
+/* ==========================================================================
+   Placeholder Component
+   ========================================================================== */
+.placeholder__text___R9aQN {
+  height: 1em;
+  position: relative;
+  width: 100%; }
+
+.placeholder__rect___wb_az {
+  height: 100%;
+  margin-right: 10px;
+  width: 100%; }
+
+.placeholder__round___xPa8L {
+  border-Radius: 50%;
+  height: 100%;
+  width: 100%; }
+
+.placeholder__media___3uT0H {
+  display: flex; }
+
+.placeholder__media-round___226ep {
+  min-height: 55px;
+  min-width: 55px;
+  margin-right: 10px;
+  width: 55px; }
+
+.placeholder__textBlock___1VEAr {
+  width: 100%; }

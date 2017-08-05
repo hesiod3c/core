@@ -1,0 +1,102 @@
+/* ==========================================================================
+  Variables
+  ========================================================================== */
+/* Border color
+   ========================================================================== */
+/* Field
+   ========================================================================== */
+/* Addon
+   ========================================================================== */
+/* ==========================================================================
+  Placeholders
+  ========================================================================== */
+/* Field (text || select || textarea )
+========================================================================== */
+.form-control__form-field___24eac, .form-control__form-field--select___1HSA7, .form-control__form-field--textarea___3UL9q {
+  border: 1px solid #ccc;
+  display: block;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  width: 100%; }
+  .form-control__form-field___24eac:disabled, .form-control__form-field--select___1HSA7:disabled, .form-control__form-field--textarea___3UL9q:disabled {
+    background: #ccc;
+    color: #999; }
+
+/* Radio and checkbox
+========================================================================== */
+.form-control__form-field--radio___3mRCV, .form-control__form-field--checkbox___ESQrE {
+  margin: 4px 0 0;
+  width: auto; }
+
+/* addon
+========================================================================== */
+.form-control__form-addon-before___1TOvr, .form-control__form-addon-after___3aQtg {
+  background: #ececec;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+  display: table-cell;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 1%; }
+
+/* ==========================================================================
+   Form Control Component
+   ========================================================================== */
+/* Form field
+   ========================================================================== */
+.form-control__form-field___24eac {
+  color: #333; }
+
+.form-control__form-field--select___1HSA7 {
+  background: #fff; }
+
+.form-control__form-field--radio___3mRCV {
+  background: #fff; }
+
+.form-control__form-field--checkbox___ESQrE {
+  background: #fff; }
+
+.form-control__form-field--textarea___3UL9q {
+  height: 200px; }
+
+/* Form addon
+   ========================================================================== */
+.form-control__form-addon___ReMSF {
+  background: none; }
+
+.form-control__form-addon--withItens___2HD9N {
+  border-collapse: separate;
+  display: table;
+  position: relative;
+  width: 100%; }
+
+.form-control__form-addon-before___1TOvr {
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  border-top-right-radius: 0; }
+
+.form-control__form-addon-after___3aQtg {
+  border-bottom-left-radius: 0;
+  border-left: 0;
+  border-top-left-radius: 0; }
+
+/* Feedback
+   ========================================================================== */
+.form-control__form-feedback___2_koJ {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 34px;
+  z-index: 2; }

@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Color
+========================================================================== */
+/* ==========================================================================
+   Tag Component
+   ========================================================================== */
+.tag__tag___GOl8v {
+  background-color: #1ab394;
+  border-radius: 0.25em;
+  color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 3px 8px;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: baseline;
+  white-space: nowrap; }
+
+.tag__tag-close___35AzI {
+  margin-left: 10px; }
+  .tag__tag-close___35AzI [class*="button"] {
+    background: none;
+    border: 0;
+    font-size: 14px;
+    line-height: 1;
+    outline: none;
+    padding: 0; }
+  .tag__tag-close___35AzI svg path {
+    fill: #fff; }

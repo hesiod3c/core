@@ -1,0 +1,46 @@
+/* ==========================================================================
+Colors
+========================================================================== */
+/* ==========================================================================
+Panel
+========================================================================== */
+.panel__panel___2qy97 {
+  margin-bottom: 25px; }
+  .panel__panel___2qy97:before, .panel__panel___2qy97:after {
+    content: " ";
+    display: table; }
+  .panel__panel___2qy97:after {
+    clear: both; }
+
+.panel__panel-header___2l3QI {
+  background: #fff;
+  margin-bottom: 0;
+  min-height: 48px;
+  padding: 15px 15px 7px; }
+
+.panel__panel-content___29laP {
+  background-color: #fff;
+  border-top: 1px solid #e7eaec;
+  padding: 15px 20px 20px;
+  width: auto; }
+  .panel__panel-content___29laP:before, .panel__panel-content___29laP:after {
+    content: " ";
+    display: table; }
+  .panel__panel-content___29laP:after {
+    clear: both; }
+
+.panel__panel-content--scroll___2YSdp {
+  max-height: 200px;
+  overflow: auto; }
+
+.panel__panel-footer___3sEmO {
+  background: #fff;
+  border-top: 1px solid #e7eaec;
+  font-size: 12px;
+  padding: 10px 15px; }
+
+.panel__panel-footer-info___1kzui {
+  font-size: 12px; }
+
+.panel__panel-footer-addon___3ZX9D {
+  float: right; }

@@ -3,6 +3,9 @@
   "version": "v0.1.0",
   "description": "Descco UI",
   "scripts": {
+    "build": "",
+    "build:js": "./node_modules/.bin/babel source --out-dir lib --ignore bin,images",
+    "build:sass": "./node_modules/.bin/node-sass",
     "lint": "yarn lint:sass && yarn lint:js",
     "lint:js": "./node_modules/.bin/eslint source/**",
     "lint:sass": "./node_modules/.bin/sass-lint 'source/**/*.scss' --verbose --no-exit",
@@ -20,9 +23,12 @@
   "author": "Hemerson Vianna <hemerson.lourenco@b2wdigital.com> (https://github.com/hemersonvianna)",
   "dependencies": {},
   "devDependencies": {
+    "babel-cli": "6.24.1",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
+    "babel-plugin-css-modules-transform": "^1.2.7",
     "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-register": "6.24.1",
     "chai": "4.1.0",
     "eslint": "4.3.0",

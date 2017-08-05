@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Color
+========================================================================== */
+/* ==========================================================================
+   Suggestions Component
+   ========================================================================== */
+.suggestions__suggestions___1w-a1 {
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 100000; }
+  @media screen and (min-width: 30em) {
+    .suggestions__suggestions___1w-a1 {
+      width: 240px; } }
+
+.suggestions__suggestions-list___3KvMf {
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  margin: 4px -1px;
+  padding: 0; }
+  .suggestions__suggestions-list___3KvMf li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px; }
+    .suggestions__suggestions-list___3KvMf li mark {
+      background: none;
+      font-weight: 600; }
+    .suggestions__suggestions-list___3KvMf li:hover {
+      background: #eee;
+      cursor: pointer; }
+    .suggestions__suggestions-list___3KvMf li.suggestions__is-active___1rNK1 {
+      background: rgba(80, 113, 255, 0.12); }
+    .suggestions__suggestions-list___3KvMf li.suggestions__is-disabled___2J2vX {
+      cursor: auto;
+      opacity: 0.5; }

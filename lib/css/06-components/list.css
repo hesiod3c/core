@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Placeholders
+   ========================================================================== */
+.list__decimal___2cvlC, .list__circle___3D-Af, .list__disc____iHLe, .list__unstyled___alnrG {
+  margin-bottom: 10px;
+  padding-left: 40px; }
+
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+/* ==========================================================================
+   list
+   ========================================================================== */
+.list__list___Eg-Rq:before, .list__list___Eg-Rq:after,
+.list__list-item___JWOa_:before,
+.list__list-item___JWOa_:after {
+  content: " ";
+  display: table; }
+
+.list__list___Eg-Rq:after,
+.list__list-item___JWOa_:after {
+  clear: both; }
+
+.list__bordered___2J3xT {
+  border: 1px solid #e5e6e7;
+  border-radius: 4px;
+  padding: 0; }
+  .list__bordered___2J3xT .list__list-item___JWOa_ {
+    border-top: 1px solid #e5e6e7;
+    padding: 10px 15px; }
+    .list__bordered___2J3xT .list__list-item___JWOa_:first-child {
+      border: 0; }
+
+.list__decimal___2cvlC {
+  list-style-type: decimal; }
+
+.list__circle___3D-Af {
+  list-style-type: circle; }
+
+.list__disc____iHLe {
+  list-style-type: disc; }
+
+.list__unstyled___alnrG {
+  list-style: none; }
+
+.list__zebra___BGn67 .list__list-item___JWOa_:nth-child(odd) {
+  background: #f5f5f5; }
+
+.list__zebra___BGn67 .list__list-item___JWOa_:nth-child(even) {
+  background: #fff; }

@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Auto Suggest With Tags Component
+   ========================================================================== */
+.autosuggest-with-tags__autoSuggestWithTags-formControl___22yQn {
+  margin-bottom: 10px; }
+
+.autosuggest-with-tags__autoSuggestWithTags-formGroup___L_8pO {
+  position: relative; }
+
+.autosuggest-with-tags__autoSuggestWithTags-formGroup-button___1kBcF {
+  float: right; }
+
+.autosuggest-with-tags__autoSuggestWithTags-itemWithButton___37-Yw {
+  position: relative; }
+  .autosuggest-with-tags__autoSuggestWithTags-itemWithButton___37-Yw .autosuggest-with-tags__autoSuggestWithTags-formControl___22yQn {
+    padding-right: 52px; }
+
+.autosuggest-with-tags__autoSuggestWithTags-itemWithButton-button___1fvCE {
+  border-radius: 0;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 52px; }
+
+.autosuggest-with-tags__autoSuggestWithTags-tag___1PEQ7 {
+  margin-bottom: 5px;
+  margin-right: 10px; }
+
+.autosuggest-with-tags__actived___vR1T1 {
+  background: #e0f3ef; }
+  .autosuggest-with-tags__actived___vR1T1 [class*="button"] {
+    background: #e0f3ef;
+    border-color: #e0f3ef; }
+  .autosuggest-with-tags__actived___vR1T1 path {
+    background: #15947a; }
+
+.autosuggest-with-tags__errorMessage___298VG {
+  color: #ed5565;
+  font-size: 12px;
+  font-weight: normal; }
