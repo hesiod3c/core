@@ -29,39 +29,37 @@ import SuggestionsStyle from '../../scss/06-components/suggestions.scss';
 import TagStylefrom from '../../scss/06-components/tag.scss';
 import TransferStyle from '../../scss/06-components/transfer.scss';
 
-const data = {
-  styles: {
-    alert: AlertStyle,
-    autosuggestWithTags: AutosuggestWithTagsStyle,
-    breadcrumb: BreadcrumbStyle,
-    button: ButtonStyle,
-    choiceBox: ChoiceBoxStyle,
-    datetimePicker: DatetimePickerStyle,
-    footer: FooterStyle,
-    form: FormStyle,
-    formActions: FormActionsStyle,
-    formControl: FormControlStyle,
-    formGroup: FormGroupStyle,
-    formLabel: FormLabelStyle,
-    grid: GridStyle,
-    gridCol: GridColStyle,
-    gridRow: GridRowStyle,
-    helpText: HelpTextStyle,
-    image: ImageStyle,
-    list: ListStyle,
-    logout: LogoutStyle,
-    modal: ModalStyle,
-    modalManager: ModalManagerStyle,
-    notifierManager: NotifierManagerStyle,
-    pagination: PaginationStyle,
-    panel: PanelStyle,
-    placeholder: PlaceholderStyle,
-    progressBar: ProgressBarStyle,
-    selectWithTags: SelectWithTagsStyle,
-    suggestions: SuggestionsStyle,
-    tag: TagStylefrom,
-    transfer: TransferStyle
-  }
+const styles = {
+  alert: AlertStyle,
+  autosuggestWithTags: AutosuggestWithTagsStyle,
+  breadcrumb: BreadcrumbStyle,
+  button: ButtonStyle,
+  choiceBox: ChoiceBoxStyle,
+  datetimePicker: DatetimePickerStyle,
+  footer: FooterStyle,
+  form: FormStyle,
+  formActions: FormActionsStyle,
+  formControl: FormControlStyle,
+  formGroup: FormGroupStyle,
+  formLabel: FormLabelStyle,
+  grid: GridStyle,
+  gridCol: GridColStyle,
+  gridRow: GridRowStyle,
+  helpText: HelpTextStyle,
+  image: ImageStyle,
+  list: ListStyle,
+  logout: LogoutStyle,
+  modal: ModalStyle,
+  modalManager: ModalManagerStyle,
+  notifierManager: NotifierManagerStyle,
+  pagination: PaginationStyle,
+  panel: PanelStyle,
+  placeholder: PlaceholderStyle,
+  progressBar: ProgressBarStyle,
+  selectWithTags: SelectWithTagsStyle,
+  suggestions: SuggestionsStyle,
+  tag: TagStylefrom,
+  transfer: TransferStyle
 };
 
-export default data;
+export default styles;
