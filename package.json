@@ -3,7 +3,8 @@
   "version": "v0.1.1",
   "description": "Descco UI",
   "scripts": {
-    "build": "yarn build:js && yarn build:images",
+    "build": "yarn build:sass && yarn build:js && yarn build:images",
+    "build:sass": "babel source/scss --out-dir lib/scss --copy-files --ignore 06-components",
     "build:js": "babel source --out-dir lib --ignore bin,images",
     "build:images": "babel source/images --out-dir lib/images --copy-files",
     "lint": "yarn lint:sass && yarn lint:js",
