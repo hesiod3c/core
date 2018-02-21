@@ -1,5 +1,8 @@
 # Descco UI - Core
 
+[![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
+[![issues](https://img.shields.io/github/issues/descco-ui/core.svg?style=flat-square)](https://github.com/descco-ui/core/issues)
+
 ## Prerequisites
 
 - [Node >= v6.10.3](https://nodejs.org/en/)
@@ -85,5 +88,21 @@ Questions and answers
 6. [Identation (code style)](./docs/manual/06-identation-code-style.md)
 7. [CSS (code style)](./docs/manual/07-css-code-style.md)
 8. [Javascript (code style)](./docs/manual/08-javascript-code-style.md)
+
+## Contributing
+
+- Fork it!
+- Create your feature branch: `git checkout -b my-new-feature`
+- Commit your changes: `git commit -m 'Add some feature'`
+- Push to the branch: `git push origin my-new-feature`
+- Submit a pull request
+
+## Log
+
+Check [Releases](https://github.com/descco-ui/core/releases) for detailed changelog.
+
+## License
+
+[MIT license](http://hemersonvianna.mit-license.org/) © Hemerson Vianna
 
 **[⬆ back to the top](#prerequisites)**
