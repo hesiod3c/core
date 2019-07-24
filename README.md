@@ -7,6 +7,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/org-hesiod/core.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/org-hesiod/core.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/org-hesiod/core/total.svg)
+![npm](https://img.shields.io/npm/dt/@descco/ui-core.svg)
 
 ## Prerequisites
 
