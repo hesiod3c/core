@@ -1,12 +1,12 @@
 # Descco UI - Core
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![GitHub issues](https://img.shields.io/github/issues/org-hesiod/core.svg)](https://github.com/org-hesiod/core/issues)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/org-hesiod/core.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/org-hesiod/core.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/org-hesiod/core.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/org-hesiod/core.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/org-hesiod/core/total.svg)
+[![GitHub issues](https://img.shields.io/github/issues/hesiod3ccore.svg)](https://github.com/hesiod3ccore/issues)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/hesiod3ccore.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/hesiod3ccore.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/hesiod3ccore.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/hesiod3ccore.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/hesiod3ccore/total.svg)
 ![npm](https://img.shields.io/npm/dt/@descco/ui-core.svg)
 
 ## Prerequisites
@@ -105,7 +105,7 @@ Questions and answers
 
 ## Log
 
-Check [Releases](https://github.com/org-hesiod/core/releases) for detailed changelog.
+Check [Releases](https://github.com/hesiod3ccore/releases) for detailed changelog.
 
 ## License
 
